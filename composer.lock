@@ -1,0 +1,64 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "590bbb09d9699916e8647fe6377c3574",
+    "packages": [
+        {
+            "name": "owner888/phpspider",
+            "version": "v2.0.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/owner888/phpspider.git",
+                "reference": "6b985926f792d28f5e6ff98c001996dfbac83ef3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/owner888/phpspider/6b985926f792d28f5e6ff98c001996dfbac83ef3.zip",
+                "reference": "6b985926f792d28f5e6ff98c001996dfbac83ef3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0"
+            },
+            "suggest": {
+                "ext-pcntl、ext-redis": "For better performance. "
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "phpspider\\": "./"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Seatle Yang",
+                    "email": "seatle@foxmail.com",
+                    "homepage": "http://www.phpspider.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "The PHPSpider Framework.",
+            "homepage": "http://www.phpspider.org",
+            "keywords": [
+                "framework",
+                "phpspider"
+            ],
+            "time": "2017-09-14T11:20:25+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
